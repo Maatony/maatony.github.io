@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+body {
+   background-image: url('./assets/background.png');
+} 
+
+h1 {
+    margin: 5px 10%;
+}
+
+h2 {
+    margin: 50px 10%;
+    font-size: 30pt;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+    /*padding: 25px 0;*/
+    margin: 25px 10%;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: calc(90% - 10% -  4* (30px + 70px));
+}
+
+div.menu ul {
+    background-color: #333333;
+    color: #ff0099;
+    font-size: 24px;
+    list-style: none;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+a:link{
+    background-color: #333333;
+    color: #ff0099;
+    text-decoration: none;
+    padding: 12px;
+}
+
+a:visited{
+    background-color: #333333;
+    color: #ff0099;
+    text-decoration: none;
+    padding: 12px;
+}
+
+a:hover {
+    color: #333333;
+    background-color: #ff0099;
+    padding: 12px;
+}
+
+#intro {
+    color: #ff0099;
+}
+
+#separator {
+    color: #333333;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#wiki {
+    font-size: 36pt;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#name {
+    font-weight: bolder;
+    font-size: 40pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#top {
+    height: 80px;
+}
